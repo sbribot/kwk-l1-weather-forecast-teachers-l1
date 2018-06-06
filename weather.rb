@@ -44,8 +44,14 @@ def convert_temp(weather)
   puts really_final_temp
 end
 
-convert_temp(weather = {
-	:city => "New York",
-:description => "Partly Cloudy",
-:temperature_farenheit => 66.3
-})
+# convert_temp(weather = {
+# 	:city => "New York",
+# :description => "Partly Cloudy",
+# :temperature_farenheit => 66.3
+# })
+
+temp = 66.3 
+temp - 32 = new_temp
+new_temp *5 = almost_temp
+almost_temp/9 = celsius
+puts celsius 
