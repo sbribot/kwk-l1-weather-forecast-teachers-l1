@@ -41,7 +41,7 @@ def convert_temp(weather)
   new_temp= temp - 32 
   final_temp = new_temp*5
   really_final_temp = final_temp/9
-  return really_final_temp
+  return really_final_temp.round 
 end
 
 convert_temp(weather = {
