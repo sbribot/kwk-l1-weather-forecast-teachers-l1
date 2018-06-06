@@ -38,10 +38,10 @@ end
 
 def convert_temp(weather)
   temp = weather[:temperature_farenheit]  
-  new_temp= temp - 32 
-  final_temp = new_temp*5
-  really_final_temp = final_temp/9
-  return really_final_temp.round 
+  new_temp= temp - 32.0 
+  final_temp = new_temp*5.0
+  really_final_temp = final_temp/9.0
+  return really_final_temp 
 end
 
 convert_temp(weather = {
