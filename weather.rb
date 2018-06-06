@@ -50,7 +50,7 @@ end
 # :temperature_farenheit => 66.3
 # })
 
-temp == 66.3 
+temp = 66.3 
 temp - 32 = new_temp
 new_temp *5 = almost_temp
 almost_temp/9 = celsius
